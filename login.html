@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Campus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome-min.css">
+</head>
+
+<body id="escuela_tecnica">
+    <div class="container">
+        <!---Nav menu -->
+        <nav id="nav_menu" class="navegation_menu">
+            <div>
+                <h1 id="school_name">eet N°3132</h1>
+                <ul>
+                    <li id="nav_button"><a href="index.html">Inicio</a></li>
+                    <li id="nav_button"><a href="login.html">Campus</a></li>
+                    <li id="nav_button"><a href="#">contacto</a></li>
+                    <button class="btn_user"><a href="#"><img src="img/user.png"></a></button>
+                </ul>
+
+            </div>
+            <!---Nav menu oculto -->
+            <div id="navdiv" class="responsive_nav">
+                <ul>
+                    <li id="nav_button2"><a href="index.html">Inicio</a></li>
+                    <li id="nav_button2"><a href="login.html">Campus</a></li>
+                    <li id="nav_button2"><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!---DIVS DE CONTENIDO PRINCIPAL; header, Informacion, categorias, etc. -->
+        <div class="header">
+            <img class="logo_header" src="img/logo_normal.png">
+            <h2 id="tittle_esc">
+                Escuela de Educacion Tecnica N° 3132
+            </h2>
+
+            <p>
+                <i class="fa fa-map-marker" id="map" aria-hidden="true"></i>
+                Ubicada en <i>Rosario de la Frontera, Salta, Argentina</i>
+            </p>
+
+        </div>
+        <main class="main_content login">
+            <form class="form" type="form">
+                <label class="label">
+                    <h1>Ingresa al Campus</h1>
+                    <input type="text" placeholder="usuario o correo">
+                    <input type="password" placeholder="contraseña">
+                    <button type="submit" class="button"><a href="#"><i class="fa fa-sign-in" aria-hidden="true"
+                                style="color: #fff"></i>
+
+                            Ingresar</a></button>
+                    <p> te olvidaste tu usuario o contraseña, <a href=""> ingresa aca</a></p>
+                    <p> aun no tenes usuario, <a href=""> ingresa aca</a></p>
+                </label>
+
+
+            </form>
+
+
+
+
+        </main>
+    </div>
+</body>
+
+</html>
